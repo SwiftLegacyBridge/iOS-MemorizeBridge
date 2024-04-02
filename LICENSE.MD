@@ -1,0 +1,3 @@
+Parts of this code and documentation, "Memorize Bridge", are a derivative of [CS193p - Developing Apps for iOS - 2021](https://cs193p.sites.stanford.edu/2021-0) and [CS193p - Developing Apps for iOS - 2023](https://cs193p.sites.stanford.edu/2023) by Professor Paul Hegarty from [Stanford University](https://www.stanford.edu/), used under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International [CC BY-NC-SA 4.0 DEED](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+"Memorize Bridge" is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International [CC BY-NC-SA 4.0 DEED](https://creativecommons.org/licenses/by-nc-sa/4.0/) by Ignasi Perez-Valls.

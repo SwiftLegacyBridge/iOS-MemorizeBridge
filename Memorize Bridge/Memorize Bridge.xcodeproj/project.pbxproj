@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B73A59E2BBC5C5B00CD219C /* Memorize_BridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B73A59D2BBC5C5B00CD219C /* Memorize_BridgeApp.swift */; };
+		6B73A5A02BBC5C5B00CD219C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B73A59F2BBC5C5B00CD219C /* ContentView.swift */; };
+		6B73A5A22BBC5C5D00CD219C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B73A5A12BBC5C5D00CD219C /* Assets.xcassets */; };
+		6B73A5A52BBC5C5D00CD219C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B73A5A42BBC5C5D00CD219C /* Preview Assets.xcassets */; };
+		6B73A5AF2BBC5C5D00CD219C /* Memorize_BridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B73A5AE2BBC5C5D00CD219C /* Memorize_BridgeTests.swift */; };
+		6B73A5B92BBC5C5D00CD219C /* Memorize_BridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B73A5B82BBC5C5D00CD219C /* Memorize_BridgeUITests.swift */; };
+		6B73A5BB2BBC5C5D00CD219C /* Memorize_BridgeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B73A5BA2BBC5C5D00CD219C /* Memorize_BridgeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B73A5AB2BBC5C5D00CD219C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B73A5922BBC5C5B00CD219C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B73A5992BBC5C5B00CD219C;
+			remoteInfo = "Memorize Bridge";
+		};
+		6B73A5B52BBC5C5D00CD219C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B73A5922BBC5C5B00CD219C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B73A5992BBC5C5B00CD219C;
+			remoteInfo = "Memorize Bridge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B73A59A2BBC5C5B00CD219C /* Memorize Bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memorize Bridge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B73A59D2BBC5C5B00CD219C /* Memorize_BridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memorize_BridgeApp.swift; sourceTree = "<group>"; };
+		6B73A59F2BBC5C5B00CD219C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6B73A5A12BBC5C5D00CD219C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B73A5A42BBC5C5D00CD219C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6B73A5AA2BBC5C5D00CD219C /* Memorize BridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memorize BridgeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B73A5AE2BBC5C5D00CD219C /* Memorize_BridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memorize_BridgeTests.swift; sourceTree = "<group>"; };
+		6B73A5B42BBC5C5D00CD219C /* Memorize BridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memorize BridgeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B73A5B82BBC5C5D00CD219C /* Memorize_BridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memorize_BridgeUITests.swift; sourceTree = "<group>"; };
+		6B73A5BA2BBC5C5D00CD219C /* Memorize_BridgeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memorize_BridgeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B73A5972BBC5C5B00CD219C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B73A5A72BBC5C5D00CD219C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B73A5B12BBC5C5D00CD219C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B73A5912BBC5C5B00CD219C = {
+			isa = PBXGroup;
+			children = (
+				6B73A59C2BBC5C5B00CD219C /* Memorize Bridge */,
+				6B73A5AD2BBC5C5D00CD219C /* Memorize BridgeTests */,
+				6B73A5B72BBC5C5D00CD219C /* Memorize BridgeUITests */,
+				6B73A59B2BBC5C5B00CD219C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B73A59B2BBC5C5B00CD219C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B73A59A2BBC5C5B00CD219C /* Memorize Bridge.app */,
+				6B73A5AA2BBC5C5D00CD219C /* Memorize BridgeTests.xctest */,
+				6B73A5B42BBC5C5D00CD219C /* Memorize BridgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B73A59C2BBC5C5B00CD219C /* Memorize Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				6B73A59D2BBC5C5B00CD219C /* Memorize_BridgeApp.swift */,
+				6B73A59F2BBC5C5B00CD219C /* ContentView.swift */,
+				6B73A5A12BBC5C5D00CD219C /* Assets.xcassets */,
+				6B73A5A32BBC5C5D00CD219C /* Preview Content */,
+			);
+			path = "Memorize Bridge";
+			sourceTree = "<group>";
+		};
+		6B73A5A32BBC5C5D00CD219C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6B73A5A42BBC5C5D00CD219C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6B73A5AD2BBC5C5D00CD219C /* Memorize BridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B73A5AE2BBC5C5D00CD219C /* Memorize_BridgeTests.swift */,
+			);
+			path = "Memorize BridgeTests";
+			sourceTree = "<group>";
+		};
+		6B73A5B72BBC5C5D00CD219C /* Memorize BridgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B73A5B82BBC5C5D00CD219C /* Memorize_BridgeUITests.swift */,
+				6B73A5BA2BBC5C5D00CD219C /* Memorize_BridgeUITestsLaunchTests.swift */,
+			);
+			path = "Memorize BridgeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B73A5992BBC5C5B00CD219C /* Memorize Bridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B73A5BE2BBC5C5D00CD219C /* Build configuration list for PBXNativeTarget "Memorize Bridge" */;
+			buildPhases = (
+				6B73A5962BBC5C5B00CD219C /* Sources */,
+				6B73A5972BBC5C5B00CD219C /* Frameworks */,
+				6B73A5982BBC5C5B00CD219C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Memorize Bridge";
+			productName = "Memorize Bridge";
+			productReference = 6B73A59A2BBC5C5B00CD219C /* Memorize Bridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B73A5A92BBC5C5D00CD219C /* Memorize BridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B73A5C12BBC5C5D00CD219C /* Build configuration list for PBXNativeTarget "Memorize BridgeTests" */;
+			buildPhases = (
+				6B73A5A62BBC5C5D00CD219C /* Sources */,
+				6B73A5A72BBC5C5D00CD219C /* Frameworks */,
+				6B73A5A82BBC5C5D00CD219C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B73A5AC2BBC5C5D00CD219C /* PBXTargetDependency */,
+			);
+			name = "Memorize BridgeTests";
+			productName = "Memorize BridgeTests";
+			productReference = 6B73A5AA2BBC5C5D00CD219C /* Memorize BridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B73A5B32BBC5C5D00CD219C /* Memorize BridgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B73A5C42BBC5C5D00CD219C /* Build configuration list for PBXNativeTarget "Memorize BridgeUITests" */;
+			buildPhases = (
+				6B73A5B02BBC5C5D00CD219C /* Sources */,
+				6B73A5B12BBC5C5D00CD219C /* Frameworks */,
+				6B73A5B22BBC5C5D00CD219C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B73A5B62BBC5C5D00CD219C /* PBXTargetDependency */,
+			);
+			name = "Memorize BridgeUITests";
+			productName = "Memorize BridgeUITests";
+			productReference = 6B73A5B42BBC5C5D00CD219C /* Memorize BridgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B73A5922BBC5C5B00CD219C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					6B73A5992BBC5C5B00CD219C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					6B73A5A92BBC5C5D00CD219C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 6B73A5992BBC5C5B00CD219C;
+					};
+					6B73A5B32BBC5C5D00CD219C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 6B73A5992BBC5C5B00CD219C;
+					};
+				};
+			};
+			buildConfigurationList = 6B73A5952BBC5C5B00CD219C /* Build configuration list for PBXProject "Memorize Bridge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B73A5912BBC5C5B00CD219C;
+			productRefGroup = 6B73A59B2BBC5C5B00CD219C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B73A5992BBC5C5B00CD219C /* Memorize Bridge */,
+				6B73A5A92BBC5C5D00CD219C /* Memorize BridgeTests */,
+				6B73A5B32BBC5C5D00CD219C /* Memorize BridgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B73A5982BBC5C5B00CD219C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B73A5A52BBC5C5D00CD219C /* Preview Assets.xcassets in Resources */,
+				6B73A5A22BBC5C5D00CD219C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B73A5A82BBC5C5D00CD219C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B73A5B22BBC5C5D00CD219C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B73A5962BBC5C5B00CD219C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B73A5A02BBC5C5B00CD219C /* ContentView.swift in Sources */,
+				6B73A59E2BBC5C5B00CD219C /* Memorize_BridgeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B73A5A62BBC5C5D00CD219C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B73A5AF2BBC5C5D00CD219C /* Memorize_BridgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B73A5B02BBC5C5D00CD219C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B73A5B92BBC5C5D00CD219C /* Memorize_BridgeUITests.swift in Sources */,
+				6B73A5BB2BBC5C5D00CD219C /* Memorize_BridgeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B73A5AC2BBC5C5D00CD219C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B73A5992BBC5C5B00CD219C /* Memorize Bridge */;
+			targetProxy = 6B73A5AB2BBC5C5D00CD219C /* PBXContainerItemProxy */;
+		};
+		6B73A5B62BBC5C5D00CD219C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B73A5992BBC5C5B00CD219C /* Memorize Bridge */;
+			targetProxy = 6B73A5B52BBC5C5D00CD219C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6B73A5BC2BBC5C5D00CD219C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B73A5BD2BBC5C5D00CD219C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B73A5BF2BBC5C5D00CD219C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Memorize Bridge/Preview Content\"";
+				DEVELOPMENT_TEAM = 949Z9P63ML;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftLegacyBridge.Memorize-Bridge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B73A5C02BBC5C5D00CD219C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Memorize Bridge/Preview Content\"";
+				DEVELOPMENT_TEAM = 949Z9P63ML;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftLegacyBridge.Memorize-Bridge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B73A5C22BBC5C5D00CD219C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 949Z9P63ML;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftLegacyBridge.Memorize-BridgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memorize Bridge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Memorize Bridge";
+			};
+			name = Debug;
+		};
+		6B73A5C32BBC5C5D00CD219C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 949Z9P63ML;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftLegacyBridge.Memorize-BridgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memorize Bridge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Memorize Bridge";
+			};
+			name = Release;
+		};
+		6B73A5C52BBC5C5D00CD219C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 949Z9P63ML;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftLegacyBridge.Memorize-BridgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Memorize Bridge";
+			};
+			name = Debug;
+		};
+		6B73A5C62BBC5C5D00CD219C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 949Z9P63ML;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftLegacyBridge.Memorize-BridgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Memorize Bridge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B73A5952BBC5C5B00CD219C /* Build configuration list for PBXProject "Memorize Bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B73A5BC2BBC5C5D00CD219C /* Debug */,
+				6B73A5BD2BBC5C5D00CD219C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B73A5BE2BBC5C5D00CD219C /* Build configuration list for PBXNativeTarget "Memorize Bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B73A5BF2BBC5C5D00CD219C /* Debug */,
+				6B73A5C02BBC5C5D00CD219C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B73A5C12BBC5C5D00CD219C /* Build configuration list for PBXNativeTarget "Memorize BridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B73A5C22BBC5C5D00CD219C /* Debug */,
+				6B73A5C32BBC5C5D00CD219C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B73A5C42BBC5C5D00CD219C /* Build configuration list for PBXNativeTarget "Memorize BridgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B73A5C52BBC5C5D00CD219C /* Debug */,
+				6B73A5C62BBC5C5D00CD219C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B73A5922BBC5C5B00CD219C /* Project object */;
+}
